@@ -27,12 +27,12 @@ jobs:
         run: pip install --upgrade pip
       - name: paso4 - instalar dependencias
         run: pip install -e .
-      - name: paso5 - Ejecutar final_3
+      - name: paso5 - Ejecutar actividad_3
         run: python C:\final\final_3\actividad_3.ipynb
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Entrega final_3
+          commit_message: Entrega actividad_3
           commit_user_name: Leonel Moscoso Yovany Patino [GitHub Actions]
           commit_user_email: leonel.moscoso@est.iudigital.edu.co
           commit_author: Leonel Moscoso <leonel.moscoso@est.iudigital.edu.co>
